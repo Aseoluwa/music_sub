@@ -1,0 +1,93 @@
+/** @format */
+.Body {
+  background-color: white;
+  margin: 0 33.3%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  bottom: 2px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.para {
+  font-size: 140%;
+  color: rgb(126, 126, 126);
+}
+.Body1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 10%;
+  background-color: rgb(238, 238, 238);
+  border-radius: 20px;
+  height: 80px;
+}
+#change {
+  padding-top: 20px;
+  color: rgb(71, 17, 179);
+  font-size: 15px;
+}
+#musicicon {
+  width: auto;
+  height: 50%;
+  padding-top: 20px;
+}
+#annuel {
+  font-size: 20px;
+}
+#annual2 {
+  color: rgb(153, 153, 153);
+}
+.clickbutton {
+  background-color: rgb(71, 17, 179);
+  height: 50px;
+  margin: 0 10%;
+  margin-top: 4%;
+  border-radius: 15px;
+  box-shadow: 5px 10px 5px 3px rgb(201, 201, 201);
+}
+#buttontext {
+  padding-top: 10px;
+  color: white;
+}
+#footer {
+  color: rgb(128, 128, 128);
+}
+@media (min-width: 320px) {
+  .Body {
+    background-color: white;
+    margin: 0 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 2px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+}
+@media (min-width: 480px) {
+  .Body {
+    background-color: white;
+    margin: 0 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 2px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+    right: 1px;
+  }
+}
+@media (min-width: 1025px) {
+  .Body {
+    background-color: white;
+    margin: 0 32.5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 2px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+}

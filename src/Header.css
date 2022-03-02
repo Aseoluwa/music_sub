@@ -1,0 +1,25 @@
+/** @format */
+
+@media (min-width: 320px) {
+  .Backg {
+    padding-top: 30px;
+  }
+  .header {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 90%;
+  }
+}
+@media (min-width: 480px) {
+  /* smartphones, Android phones, landscape iPhone */
+}
+@media (min-width: 1025px) {
+  .Backg {
+    padding-top: 30px;
+  }
+  .header {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 35%;
+  }
+}
